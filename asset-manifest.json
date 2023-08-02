@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/enigma_films/static/css/main.b424de5b.css",
+    "main.js": "/enigma_films/static/js/main.75b50515.js",
+    "static/media/star.png": "/enigma_films/static/media/star.d0cbd94e0a4a62fc2bf4.png",
+    "index.html": "/enigma_films/index.html",
+    "main.b424de5b.css.map": "/enigma_films/static/css/main.b424de5b.css.map",
+    "main.75b50515.js.map": "/enigma_films/static/js/main.75b50515.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b424de5b.css",
+    "static/js/main.75b50515.js"
+  ]
+}
