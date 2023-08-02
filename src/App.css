@@ -1,12 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 *{
   margin: 0;
+  padding : 0;
 }
 body{
   background-color: #282c34;
-}
-.App {
-  padding: 1em;
-  text-align: center;
 }
 
 .App-header {
@@ -29,34 +30,36 @@ body{
 
 .Movie-container{
   width: 100%;
-  display: flex;
-  overflow-x:auto ;
 }
 .Movie-wrapper{
+  display : flex;
+  flex-direction : column;
+  justify-content : center;
+  align-items : center;
+  width : 250px;
   margin: 15px;
-  height: 400px;
+  height: auto;
   border-radius: 10px;
   background-color: #282c34;
-  width: 200px;
   box-shadow : 5px 5px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .Movie-image{
-  width: 200px;
+  width: 230px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-bottom : 5px;
 }
 .Movie-rate{
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  margin-left:5px;
   font-size: 17px;
   display: flex;
-  background-color: #393646;
   border-radius: 20px;
   width: 28%;
   color: #F1F6F9;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  box-shadow : 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .rate{
   margin-right: 5px;
@@ -65,6 +68,7 @@ body{
 
 }
 .Movie-title{
+  float : left;
   margin-top: 5px;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   color: #F1F6F9;
