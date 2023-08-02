@@ -1,0 +1,6 @@
+dicovery 
+discover/movie?
+discover/tv>
+
+genre 
+/genre/movie/list
