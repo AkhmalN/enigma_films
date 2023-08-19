@@ -4,12 +4,13 @@ import App from './App';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/navbar';
 
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
-  <Navbar/>
   <Routes>
-    <Route path='/enigma_films' element = {<App/>}/>
+    <Route path='/movies' element = {<App/>}/>
   </Routes>
   </BrowserRouter>
 );
