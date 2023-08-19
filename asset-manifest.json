@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/enigma_films/static/css/main.ed1092e2.css",
-    "main.js": "/enigma_films/static/js/main.2c7fd485.js",
-    "static/media/star.png": "/enigma_films/static/media/star.d0cbd94e0a4a62fc2bf4.png",
+    "main.css": "/enigma_films/static/css/main.8395d9fb.css",
+    "main.js": "/enigma_films/static/js/main.2573c168.js",
+    "static/media/imdb.png": "/enigma_films/static/media/imdb.8666d7549c2ae5d76262.png",
     "index.html": "/enigma_films/index.html",
-    "main.ed1092e2.css.map": "/enigma_films/static/css/main.ed1092e2.css.map",
-    "main.2c7fd485.js.map": "/enigma_films/static/js/main.2c7fd485.js.map"
+    "main.8395d9fb.css.map": "/enigma_films/static/css/main.8395d9fb.css.map",
+    "main.2573c168.js.map": "/enigma_films/static/js/main.2573c168.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed1092e2.css",
-    "static/js/main.2c7fd485.js"
+    "static/css/main.8395d9fb.css",
+    "static/js/main.2573c168.js"
   ]
 }
