@@ -5,8 +5,8 @@ import Active from '../assets/active.png'
 
 function Sidebar() {
    return (
-      <div className='bg-base-100 h-full w-60 px-7 py-7'>
-         <h1 className='font-mono text-3xl text-red-500'>Mall Movies</h1>
+      <div className='bg-base-100 h-full w-full px-7 py-7 md:w-full'>
+         <h1 className='font-mono text-3xl text-red-500'>MALLFLIX</h1>
          <h2 className='text-gray-600 text-xl my-3'>New Feed</h2>
          <ul className='flex flex-col text-gray-50'>
             <div className='text-lg'>
